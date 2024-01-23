@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .font-Manrope {
             font-family: 'Manrope', sans-serif;
@@ -55,38 +58,237 @@
                 </div>
             </div>
         </nav>
-        <div class="carousel h-96 bg-cover border rounded-2xl  mt-10">
+        <div class="carousel h-96 bg-cover rounded-2xl  mt-10">
             <div id="slide1" class="carousel-item relative w-full">
-              <img src="Images/1.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide4" class="btn btn-circle">❮</a> 
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide2" class="carousel-item relative w-full">
-              <img src="Images/2.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a> 
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide3" class="carousel-item relative w-full">
-              <img src="Images/3.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a> 
-                <a href="#slide4" class="btn btn-circle">❯</a>
-              </div>
-            </div> 
-            <div id="slide4" class="carousel-item relative w-full">
-              <img src="Images/4.png" class="w-full" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a> 
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
             </div>
-          </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/2.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="Images/3.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="Images/4.png" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+
     </header>
-    <main>
+    <main class="container mx-auto">
+        <section class="text-center my-24">
+            <h1 class="text-5xl font-bold mb-6">Professional Hockeys Club</h1>
+            <p>The National Hockey League is a professional ice hockey league in North America <br>
+                comprising 32 teams—25 in the United States and 7 in Canada.</p>
+
+            <div class="progressbar my-24 grid md:grid-cols-1 lg:grid-cols-4 gap-4  ">
+                <div class=" border border-blue-600 rounded-xl p-9 drop-shadow-xl">
+                    <div class="radial-progress text-primary" style="--value:92;" role="progressbar">92%</div>
+                    <h2 class="font-bold p-3">Prayer Facility</h2>
+                    <p>We continue our series on prayer. <br>
+                        We figure out where a hockey player should pray</p>
+                </div>
+                <div class=" border border-secondary rounded-xl p-9 drop-shadow-xl">
+                    <div class="radial-progress text-secondary" style="--value:88;" role="progressbar">88%</div>
+                    <h3 class="font-bold p-3">Experienced Coach</h3>
+                    <p>Fulfilling the duties and responsibilities <br> of a hockey coach
+                        requires attention to detail, leadership skills.</p>
+                </div>
+                <div class=" border border-accent rounded-xl p-9 drop-shadow-xl">
+                    <div class="radial-progress text-accent" style="--value:80;" role="progressbar">80%</div>
+                    <h3 class="font-bold p-3">Senior Player</h3>
+                    <p>Senior hockey refers to amateur or <br> semi-professional ice hockey competition.
+
+                    </p>
+                </div>
+                <div class=" border border-warning rounded-xl p-9 drop-shadow-xl">
+                    <div class="radial-progress text-warning" style="--value:90;" role="progressbar">90%</div>
+                    <h4 class="font-bold p-3">Training Ground</h4>
+                    <p>You can create your own ice <br> hockey dryland training area at home.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center my-24">
+            <h1 class="text-5xl font-bold mb-6"> Program Sections </h1>
+            <p>The purpose of the CCM High Performance Program is to <br> identify, train, educate and evaluate
+                Minnesota’s best hockey players</p>
+
+            <!--    Grid Seaction -->
+
+        </section>
+
+        <section class="text-center my-24">
+            <h1 class="text-5xl font-bold mb-6">Our New Products </h1>
+            <p>The compulsory equipment of a player comprises
+                the following separate items: a shirt with sleeves; shorts; socks <br> tape or any material applied or
+                worn ...</p>
+            <div class="continer p-4">
+
+                <div class="hero text-left border rounded-xl">
+
+                    <div class="hero-content  grid grid-cols-4 w-full text-left ">
+
+                        <img src="Images/5.png" class="rounded-lg " />
+
+                        <div class=" border text-left ">
+                            
+                            <div class="flex gap-2">
+                                <div> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    5.0</div>
+                                <div>
+                                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                                    20
+                                </div>
+                                <div> <i class="fa-solid fa-heart" style="color: #FFD43B;"></i>
+                                    250
+                                </div>
+                            </div>
+                            <h1 class="text-sm font-bold">World Cup Flags Football</h1>
+                            <p class="text-xs">Hockey jerseys are also known <br>
+                                as sweaters and are worn.</p>
+                                <div class="flex">
+                                    <div><h1 class="text-sm text-red-700 font-bold">Price - $22.00</h1></div>
+                                    <div class="text-xs"> <p><i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i> Delivery Fee : Free</p></div>
+                                </div>
+                        </div>
+                        <img src="Images/5.png" class="rounded-lg " />
+
+                        <div class=" border ">
+                            
+                            <div class="flex gap-2">
+                                <div> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    5.0</div>
+                                <div>
+                                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                                    20
+                                </div>
+                                <div> <i class="fa-solid fa-heart" style="color: #FFD43B;"></i>
+                                    250
+                                </div>
+                            </div>
+                            <h1 class="text-sm font-bold">World Cup Flags Football</h1>
+                            <p class="text-xs">Hockey jerseys are also known <br>
+                                as sweaters and are worn.</p>
+                                <div class="flex">
+                                    <div><h1 class="text-sm text-red-700 font-bold">Price - $22.00</h1></div>
+                                    <div class="text-xs"> <p><i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i> Delivery Fee : Free</p></div>
+                                </div>
+                        </div>
+                        <img src="Images/5.png" class="rounded-lg " />
+
+                        <div class=" border ">
+                            
+                            <div class="flex gap-2">
+                                <div> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    5.0</div>
+                                <div>
+                                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                                    20
+                                </div>
+                                <div> <i class="fa-solid fa-heart" style="color: #FFD43B;"></i>
+                                    250
+                                </div>
+                            </div>
+                            <h1 class="text-sm font-bold">World Cup Flags Football</h1>
+                            <p class="text-xs">Hockey jerseys are also known <br>
+                                as sweaters and are worn.</p>
+                                <div class="flex">
+                                    <div><h1 class="text-sm text-red-700 font-bold">Price - $22.00</h1></div>
+                                    <div class="text-xs"> <p><i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i> Delivery Fee : Free</p></div>
+                                </div>
+                        </div>
+                        <img src="Images/5.png" class=" rounded-lg " />
+
+                        <div class=" border ">
+                            
+                            <div class="flex gap-2">
+                                <div> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    5.0</div>
+                                <div>
+                                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                                    20
+                                </div>
+                                <div> <i class="fa-solid fa-heart" style="color: #FFD43B;"></i>
+                                    250
+                                </div>
+                            </div>
+                            <h1 class="text-sm font-bold">World Cup Flags Football</h1>
+                            <p class="text-xs">Hockey jerseys are also known <br>
+                                as sweaters and are worn.</p>
+                                <div class="flex">
+                                    <div><h1 class="text-sm text-red-700 font-bold">Price - $22.00</h1></div>
+                                    <div class="text-xs"> <p><i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i> Delivery Fee : Free</p></div>
+                                </div>
+                        </div>
+                        <img src="Images/5.png" class=" rounded-lg " />
+
+                        <div class="border ">
+                            
+                            <div class="flex gap-2">
+                                <div> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    5.0</div>
+                                <div>
+                                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                                    20
+                                </div>
+                                <div> <i class="fa-solid fa-heart" style="color: #FFD43B;"></i>
+                                    250
+                                </div>
+                            </div>
+                            <h1 class="text-sm font-bold">World Cup Flags Football</h1>
+                            <p class="text-xs">Hockey jerseys are also known <br>
+                                as sweaters and are worn.</p>
+                                <div class="flex">
+                                    <div><h1 class="text-sm text-red-700 font-bold">Price - $22.00</h1></div>
+                                    <div class="text-xs"> <p><i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i> Delivery Fee : Free</p></div>
+                                </div>
+                        </div>
+                        <img src="Images/5.png" class=" rounded-lg " />
+
+                        <div class=" border ">
+                            
+                            <div class="flex gap-2">
+                                <div> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                    5.0</div>
+                                <div>
+                                    <i class="fa-solid fa-eye" style="color: #FFD43B;"></i>
+                                    20
+                                </div>
+                                <div> <i class="fa-solid fa-heart" style="color: #FFD43B;"></i>
+                                    250
+                                </div>
+                            </div>
+                            <h1 class="text-sm font-bold">World Cup Flags Football</h1>
+                            <p class="text-xs">Hockey jerseys are also known <br>
+                                as sweaters and are worn.</p>
+                                <div class="flex">
+                                    <div><h1 class="text-sm text-red-700 font-bold">Price - $22.00</h1></div>
+                                    <div class="text-xs"> <p><i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i> Delivery Fee : Free</p></div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
 
     </main>
     <footer>
